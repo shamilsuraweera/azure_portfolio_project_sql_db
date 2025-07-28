@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df-shamil-AdventureWorksLT2022"
+		},
+		"AzureDataLakeStorageLinkedService_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorageLinkedService_properties_typeProperties_url": {
+			"value": "https://adventureworkslt2022.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://adventureworkslt2022.vault.azure.net/"
+		},
+		"SqlServerLinkedService_properties_typeProperties_server": {
+			"value": "DESKTOP-RCTKQDU\\SQLEXPRESS"
+		},
+		"SqlServerLinkedService_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2022"
+		},
+		"SqlServerLinkedService_properties_typeProperties_userName": {
+			"value": "shamil"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
